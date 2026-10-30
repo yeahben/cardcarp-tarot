@@ -14,16 +14,16 @@ set_allow:  # set ids admitted;
   schema:
     type: string
 
-oracle_ban: # Oracle ids removed outright.
-            # Checked before oracle_restrict and wins over it.
+blueprint_ban: # Blueprint ids removed outright.
+            # Checked before blueprint_restrict and wins over it.
   type: list
   required: false
   nullable: true
   schema:
     type: string
 
-oracle_restrict:  # Oracle id to the copies a deck may hold;
-                  # Overrides oracle_exception and oracle_limit, but not oracle_ban.
+blueprint_restrict:  # Blueprint id to the copies a deck may hold;
+                  # Overrides blueprint_exception and blueprint_limit, but not blueprint_ban.
   type: dict
   required: false
   nullable: true
@@ -31,8 +31,8 @@ oracle_restrict:  # Oracle id to the copies a deck may hold;
     type: integer
     min: 0
 
-oracle_exception: # Keyed by a category or trait value rather than an id.
-                  # Overrides oracle_limit, and is overridden by oracle_restrict.
+blueprint_exception: # Keyed by a category or trait value rather than an id.
+                  # Overrides blueprint_limit, and is overridden by blueprint_restrict.
   type: dict
   required: false
   nullable: true
@@ -40,7 +40,7 @@ oracle_exception: # Keyed by a category or trait value rather than an id.
     type: integer
     min: 0
 
-oracle_limit: # Copies of any one oracle a deck may hold.
+blueprint_limit: # Copies of any one blueprint a deck may hold.
               # A tarot deck holds one of each card, so this is 1 everywhere.
   type: integer
   required: false

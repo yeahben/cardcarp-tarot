@@ -6,13 +6,13 @@ set_allow:
   - swords
   - pentacles
 
-oracle_ban:
+blueprint_ban:
 
-oracle_restrict:
+blueprint_restrict:
 
-oracle_exception:
+blueprint_exception:
 
-oracle_limit: 1
+blueprint_limit: 1
 
 list_limit:
   main:

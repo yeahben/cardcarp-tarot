@@ -1,7 +1,7 @@
 # One physical printing of a card: what is on the cardboard, nothing about
-# what it means. Meaning lives on the oracle, shared by every edition.
+# what it means. Meaning lives on the blueprint, shared by every edition.
 
-oracle: # the oracle this printing depicts, written as its id: '{name}-{origin}'
+blueprint: # the blueprint this printing depicts, written as its id: '{name}-{origin}'
   type: string
   required: true
 

@@ -15,7 +15,7 @@ pip install .
 cardcarp-compile
 ```
 
-The compiled dataset is written to `dist/`. `dist/database.json` has every card joined with its oracle, set, collection and format legality.
+The compiled dataset is written to `dist/`. `dist/database.json` has every card joined with its blueprint, set, collection and format legality.
 
 This repo contains only data and schemas. The build comes from [yeahben/cardcarp-compile](https://github.com/yeahben/cardcarp-compile), a pipeline to create similar tabletop-card-game datasets.
 
@@ -32,7 +32,7 @@ Each `data` folder contains individual YAML files. Build combines them into flat
 | `data/set/` | **One numbering sequence.** The twenty-two trumps, and each of the four suits, since every suit restarts at its Ace ([why](CONTRIBUTING.md#-what-counts-as-a-set)) |
 | `data/collection/` | **One deck design.** *Rider-Waite-Smith* groups its five sets; a later edition of the same design joins the same collection |
 | `data/format/` | **Ways of reading.** The full pack, the trumps alone, or the suits alone, each with its card count |
-| `data/deck/` | **Pre-built lists.** The pack as sold and its two halves. Each entry points to a *specific printing* ([why](CONTRIBUTING.md#oracle-ids-vs-card-ids)) |
+| `data/deck/` | **Pre-built lists.** The pack as sold and its two halves. Each entry points to a *specific printing* ([why](CONTRIBUTING.md#blueprint-ids-vs-card-ids)) |
 | `schema/` | **Validation rules.** One schema per record type, plus `dataset.yml`, the tarot-specific vocabulary the shared build needs |
 | `dist/` | **Build output.** Git-ignored. Run `cardcarp-compile` to produce it |
 
@@ -49,7 +49,7 @@ data/card/divinatory/01-rider-waite-smith/01-major-arcana/00-the-fool.yml
     └ set
       └ card
 
-data/oracle/divinatory/01-rider-waite-smith/01-major-arcana/00-the-fool.yml
+data/blueprint/divinatory/01-rider-waite-smith/01-major-arcana/00-the-fool.yml
 data/set/divinatory/01-rider-waite-smith/01-major-arcana.yml
 data/collection/01-rider-waite-smith.yml
 ```
@@ -73,7 +73,7 @@ Run every command from the root of this repo.
 | Command | What it does |
 | --- | --- |
 | `cardcarp-compile` | **The build.** Validates every file, checks every reference, and writes `dist/` |
-| `cardcarp-split` | Regenerates `data/card`, `data/oracle`, `data/set` and `data/collection` from `dist/`, for bulk edits and formatting cleanup |
+| `cardcarp-split` | Regenerates `data/card`, `data/blueprint`, `data/set` and `data/collection` from `dist/`, for bulk edits and formatting cleanup |
 | `cardcarp-sets` | Writes `dist/sets.json`, the tree of collection types, collections and sets |
 | `cardcarp-manifest` | Writes `dist/manifest.json`, all cards and decks keyed by id |
 | `cardcarp-properties` | Writes `dist/properties.json`, the distinct values available for filtering |

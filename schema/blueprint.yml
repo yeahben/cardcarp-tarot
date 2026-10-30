@@ -5,9 +5,9 @@ name:
   type: string
   required: true
 
-origin: # The printing this oracle first appeared in, as '{set}-{index}'.
+origin: # The printing this blueprint first appeared in, as '{set}-{index}'.
         # The id is derived from name + origin, so adding a later edition
-        # never changes an existing oracle's id.
+        # never changes an existing blueprint's id.
   type: string
   required: true
   nullable: false
@@ -27,7 +27,7 @@ category: # the two halves of a tarot deck
     allowed: ['Major Arcana', 'Minor Arcana']
 
 trait: # the card's kind within its half. Never reuses a category name:
-       # format.oracle_exception matches both lists with one key.
+       # format.blueprint_exception matches both lists with one key.
   type: list
   required: true
   nullable: false

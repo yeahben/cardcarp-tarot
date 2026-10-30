@@ -29,29 +29,29 @@ Every pull-request is automatically validated against the schema via GitHub Acti
 | Collection | `name` | `Rider-Waite-Smith` → `rider-waite-smith` |
 | Set | `name` | `Major Arcana` → `major-arcana` |
 | Card | `set` + `index` | `Wands` + `01` → `wands-01` |
-| Oracle | `name` + `origin` | `The Fool` + `major-arcana-00` → `the-fool-major-arcana-00` |
+| Blueprint | `name` + `origin` | `The Fool` + `major-arcana-00` → `the-fool-major-arcana-00` |
 | Deck | `group` + `name` | `Rider-Waite-Smith` + `Full Deck` → `rider-waite-smith-full-deck` |
 
 So a card references its set as `set: Wands`, not `set: wands`. The build kebab-cases it for you.
 
-**`oracle` is the one reference written in kebab-case**, because an oracle has no single human name that identifies it: `oracle: the-fool-major-arcana-00`, not `The Fool`. See below for why an oracle needs the extra anchor.
+**`blueprint` is the one reference written in kebab-case**, because an blueprint has no single human name that identifies it: `blueprint: the-fool-major-arcana-00`, not `The Fool`. See below for why an blueprint needs the extra anchor.
 
 Filenames exist purely so editors can find things. The number prefix (`00-the-fool.yml`) is navigation, not identity. Renaming a file changes nothing about the data. If two records derive the same ID the build **fails and names both files**, rather than silently overwriting one.
 
-### `origin` on oracles
+### `origin` on blueprints
 
-Every edition of this deck has a Fool, and a Marseille deck has one too, so a name alone cannot identify an oracle. `origin` anchors it to the printing the card first appeared in (`major-arcana-00`). It is anchored to the *earliest* printing so that adding a later edition never changes an existing oracle's ID.
+Every edition of this deck has a Fool, and a Marseille deck has one too, so a name alone cannot identify an blueprint. `origin` anchors it to the printing the card first appeared in (`major-arcana-00`). It is anchored to the *earliest* printing so that adding a later edition never changes an existing blueprint's ID.
 
-### Oracle IDs vs card IDs
+### Blueprint IDs vs card IDs
 
 The two ID shapes answer different questions, and both are needed:
 
 | | identifies | shape | example |
 | --- | --- | --- | --- |
-| **Oracle** | a card's meaning, shared by every printing of it | `name` + `origin` | `the-fool-major-arcana-00` |
+| **Blueprint** | a card's meaning, shared by every printing of it | `name` + `origin` | `the-fool-major-arcana-00` |
 | **Card** | one specific printing | `set` + `index` | `major-arcana-00` |
 
-An oracle answers *"what does this card mean?"* A card answers *"which printing is this?"*: its artist, its lettering, and the set it sits in.
+An blueprint answers *"what does this card mean?"* A card answers *"which printing is this?"*: its artist, its lettering, and the set it sits in.
 
 **Card IDs are not merely internal plumbing.** Deck lists reference them, because a list has to name a specific printing rather than a meaning:
 
@@ -105,7 +105,7 @@ Where a judgement call was made, it is recorded here. **Please do not "correct" 
 
 ### Meanings are keywords, not Waite's text
 
-Each oracle carries short upright and reversed keywords rather than passages from *The Pictorial Key to the Tarot*. Waite's book is public domain, but it is long, discursive and often contradicts itself; the keywords are the consensus reading a modern little white book would give. Keep them to three or four short phrases each.
+Each blueprint carries short upright and reversed keywords rather than passages from *The Pictorial Key to the Tarot*. Waite's book is public domain, but it is long, discursive and often contradicts itself; the keywords are the consensus reading a modern little white book would give. Keep them to three or four short phrases each.
 
 ### Attributions follow the Golden Dawn
 
@@ -117,4 +117,4 @@ The Rider deck was launched in December 1909. The day is not recorded, so the se
 
 ### `title` is what is lettered on the card
 
-Trumps, aces and court cards carry a title, and pips carry only their numeral. `title` records exactly that, in the case used on the card (`PAGE of WANDS`, with its small *of*) and without the terminal full stop, so a later edition that re-letters a card (`JUDGMENT` for `JUDGEMENT`, or a non-English pack) can say so without touching the oracle.
+Trumps, aces and court cards carry a title, and pips carry only their numeral. `title` records exactly that, in the case used on the card (`PAGE of WANDS`, with its small *of*) and without the terminal full stop, so a later edition that re-letters a card (`JUDGMENT` for `JUDGEMENT`, or a non-English pack) can say so without touching the blueprint.
