@@ -28,7 +28,7 @@ Each `data` folder contains individual YAML files. Build combines them into flat
 | Folder | Holds |
 | --- | --- |
 | `data/card/` | **Physical printings.** Properties of one exact card: artist, the title as lettered, and its position in the set |
-| `data/core/` | **Meaning shared by every edition.** Arcana, suit, rank or numeral, element, astrological attribution, and divinatory keywords upright and reversed |
+| `data/blueprint/` | **Meaning shared by every edition.** Arcana, suit, rank or numeral, element, astrological attribution, and divinatory keywords upright and reversed |
 | `data/set/` | **One numbering sequence.** The twenty-two trumps, and each of the four suits, since every suit restarts at its Ace ([why](CONTRIBUTING.md#-what-counts-as-a-set)) |
 | `data/collection/` | **One deck design.** *Rider-Waite-Smith* groups its five sets; a later edition of the same design joins the same collection |
 | `data/format/` | **Ways of reading.** The full pack, the trumps alone, or the suits alone, each with its card count |
