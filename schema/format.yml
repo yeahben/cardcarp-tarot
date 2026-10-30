@@ -1,0 +1,70 @@
+# A format is a way of using the deck: which sets a reading draws from, and how
+# many cards it holds. Rules are listed in the order the compiler applies them:
+# - first what a format admits,
+# -- then what it removes,
+# --- then how many copies survive,
+# ---- then the whole-deck size check.
+
+set_allow:  # set ids admitted;
+            # "*" means every set;
+            # Empty admits nothing.
+  type: list
+  required: false
+  nullable: true
+  schema:
+    type: string
+
+oracle_ban: # Oracle ids removed outright.
+            # Checked before oracle_restrict and wins over it.
+  type: list
+  required: false
+  nullable: true
+  schema:
+    type: string
+
+oracle_restrict:  # Oracle id to the copies a deck may hold;
+                  # Overrides oracle_exception and oracle_limit, but not oracle_ban.
+  type: dict
+  required: false
+  nullable: true
+  valuesrules:
+    type: integer
+    min: 0
+
+oracle_exception: # Keyed by a category or trait value rather than an id.
+                  # Overrides oracle_limit, and is overridden by oracle_restrict.
+  type: dict
+  required: false
+  nullable: true
+  valuesrules:
+    type: integer
+    min: 0
+
+oracle_limit: # Copies of any one oracle a deck may hold.
+              # A tarot deck holds one of each card, so this is 1 everywhere.
+  type: integer
+  required: false
+  min: 1
+
+list_limit: # Total cards per list zone required to qualify as format legal.
+            # Keyed by the deck list zone, so the rules nest one level down.
+            # An absent zone admits no cards, and an absent bound is unenforced at that end.
+  type: dict
+  required: false
+  nullable: true
+  keysrules:
+    type: string
+    allowed: ['auxiliary', 'main', 'side']
+  valuesrules:
+    type: dict
+    schema:
+      minimum:
+        type: integer
+        required: false
+        nullable: true
+        min: 0
+      maximum:
+        type: integer
+        required: false
+        nullable: true
+        min: 0

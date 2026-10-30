@@ -1,0 +1,26 @@
+name: Strength
+
+origin: major-arcana-08
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: VIII
+
+astrology: Leo
+
+meaning:
+  upright:
+    - Courage
+    - Patience
+    - Compassion
+    - Inner strength
+  reversed:
+    - Self-doubt
+    - Weakness
+    - Raw emotion

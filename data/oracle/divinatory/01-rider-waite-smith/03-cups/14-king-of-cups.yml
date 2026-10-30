@@ -1,0 +1,28 @@
+name: King of Cups
+
+origin: cups-14
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Cups
+
+rank: King
+
+element: Water
+
+meaning:
+  upright:
+    - Emotional balance
+    - Diplomacy
+    - Wisdom
+  reversed:
+    - Manipulation
+    - Volatility
+    - Coldness

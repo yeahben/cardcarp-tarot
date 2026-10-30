@@ -1,0 +1,20 @@
+# The four suits read on their own, fifty-six cards.
+
+set_allow:
+  - wands
+  - cups
+  - swords
+  - pentacles
+
+oracle_ban:
+
+oracle_restrict:
+
+oracle_exception:
+
+oracle_limit: 1
+
+list_limit:
+  main:
+    minimum: 56
+    maximum: 56

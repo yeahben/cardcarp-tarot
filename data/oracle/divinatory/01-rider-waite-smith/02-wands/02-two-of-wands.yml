@@ -1,0 +1,28 @@
+name: Two of Wands
+
+origin: wands-02
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Two
+
+element: Fire
+
+meaning:
+  upright:
+    - Planning
+    - Decisions
+    - Looking ahead
+  reversed:
+    - Fear of the unknown
+    - Poor planning
+    - Indecision

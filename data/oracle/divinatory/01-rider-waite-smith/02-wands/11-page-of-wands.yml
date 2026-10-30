@@ -1,0 +1,28 @@
+name: Page of Wands
+
+origin: wands-11
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Wands
+
+rank: Page
+
+element: Fire
+
+meaning:
+  upright:
+    - Enthusiasm
+    - Exploration
+    - A free spirit
+  reversed:
+    - Setbacks
+    - Lack of direction
+    - Hasty news

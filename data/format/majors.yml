@@ -1,0 +1,17 @@
+# The twenty-two trumps read on their own.
+
+set_allow:
+  - major-arcana
+
+oracle_ban:
+
+oracle_restrict:
+
+oracle_exception:
+
+oracle_limit: 1
+
+list_limit:
+  main:
+    minimum: 22
+    maximum: 22

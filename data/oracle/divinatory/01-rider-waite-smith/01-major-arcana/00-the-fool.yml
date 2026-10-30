@@ -1,0 +1,26 @@
+name: The Fool
+
+origin: major-arcana-00
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: '0'
+
+element: Air
+
+meaning:
+  upright:
+    - New beginnings
+    - Innocence
+    - Spontaneity
+    - A leap of faith
+  reversed:
+    - Recklessness
+    - Naivety
+    - Hesitation

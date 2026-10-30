@@ -1,0 +1,28 @@
+name: Page of Pentacles
+
+origin: pentacles-11
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Pentacles
+
+rank: Page
+
+element: Earth
+
+meaning:
+  upright:
+    - Ambition
+    - Study
+    - A new opportunity
+  reversed:
+    - Procrastination
+    - Lack of progress
+    - Unrealistic goals

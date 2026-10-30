@@ -1,0 +1,33 @@
+# One physical printing of a card: what is on the cardboard, nothing about
+# what it means. Meaning lives on the oracle, shared by every edition.
+
+oracle: # the oracle this printing depicts, written as its id: '{name}-{origin}'
+  type: string
+  required: true
+
+index: # position in the set's own sequence, zero-padded to two digits.
+       # Trumps carry their own numeral (00-21); a suit runs Ace (01) to King (14).
+       # See CONTRIBUTING for the rule.
+  type: string
+  required: true
+
+set:
+  type: string
+  required: true
+
+artist:
+  type: string
+  required: true
+  nullable: true
+
+title: # the text printed on the card, exactly as lettered, or null for a
+       # card that carries only its image and numeral
+  type: string
+  required: true
+  nullable: true
+
+variation: # how this printing differs physically from the set's norm,
+           # e.g. a corrected plate or a recoloured border
+  type: list
+  schema:
+    type: string

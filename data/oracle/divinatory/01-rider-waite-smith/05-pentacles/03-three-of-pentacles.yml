@@ -1,0 +1,28 @@
+name: Three of Pentacles
+
+origin: pentacles-03
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Three
+
+element: Earth
+
+meaning:
+  upright:
+    - Teamwork
+    - Craftsmanship
+    - Learning
+  reversed:
+    - Disharmony
+    - Lack of teamwork
+    - Poor quality

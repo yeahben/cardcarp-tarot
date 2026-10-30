@@ -1,0 +1,17 @@
+# A collection is one deck design, grouping its sets (the trumps and the four
+# suits). A second edition of the same design belongs in the same collection.
+
+name:
+  type: string
+  required: true
+
+type: # Divinatory for decks drawn to be read, Playing for game-pattern tarots
+      # such as the Marseille, Extra for supplements and oddities
+  type: string
+  required: true
+  allowed: ['Divinatory', 'Playing', 'Extra']
+
+index: # order within the collection type
+  type: string
+  nullable: true
+  coerce: str

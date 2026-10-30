@@ -1,0 +1,28 @@
+name: Knight of Swords
+
+origin: swords-12
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Swords
+
+rank: Knight
+
+element: Air
+
+meaning:
+  upright:
+    - Ambition
+    - Action
+    - Directness
+  reversed:
+    - Recklessness
+    - Impatience
+    - Aggression

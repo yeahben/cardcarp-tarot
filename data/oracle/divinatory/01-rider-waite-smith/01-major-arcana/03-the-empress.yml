@@ -1,0 +1,26 @@
+name: The Empress
+
+origin: major-arcana-03
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: III
+
+astrology: Venus
+
+meaning:
+  upright:
+    - Abundance
+    - Nurturing
+    - Fertility
+    - Nature
+  reversed:
+    - Dependence
+    - Smothering
+    - A creative block

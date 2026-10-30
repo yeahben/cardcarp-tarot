@@ -1,0 +1,28 @@
+name: Six of Swords
+
+origin: swords-06
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Six
+
+element: Air
+
+meaning:
+  upright:
+    - Transition
+    - Moving on
+    - Leaving trouble behind
+  reversed:
+    - Resistance to change
+    - Unfinished business
+    - Baggage

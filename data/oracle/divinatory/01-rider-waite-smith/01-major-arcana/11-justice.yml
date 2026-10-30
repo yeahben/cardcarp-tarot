@@ -1,0 +1,26 @@
+name: Justice
+
+origin: major-arcana-11
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XI
+
+astrology: Libra
+
+meaning:
+  upright:
+    - Fairness
+    - Truth
+    - Cause and effect
+    - Law
+  reversed:
+    - Unfairness
+    - Dishonesty
+    - Lack of accountability

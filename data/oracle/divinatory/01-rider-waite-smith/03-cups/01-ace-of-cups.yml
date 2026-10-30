@@ -1,0 +1,28 @@
+name: Ace of Cups
+
+origin: cups-01
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Ace
+
+element: Water
+
+meaning:
+  upright:
+    - New feelings
+    - Compassion
+    - An emotional beginning
+  reversed:
+    - Emptiness
+    - Repressed emotion
+    - Blocked creativity

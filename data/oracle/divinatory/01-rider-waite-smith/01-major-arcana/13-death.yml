@@ -1,0 +1,26 @@
+name: Death
+
+origin: major-arcana-13
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XIII
+
+astrology: Scorpio
+
+meaning:
+  upright:
+    - Endings
+    - Transformation
+    - Transition
+    - Letting go
+  reversed:
+    - Fear of change
+    - Stagnation
+    - Decay

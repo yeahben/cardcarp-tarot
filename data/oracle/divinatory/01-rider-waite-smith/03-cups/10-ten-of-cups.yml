@@ -1,0 +1,28 @@
+name: Ten of Cups
+
+origin: cups-10
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Ten
+
+element: Water
+
+meaning:
+  upright:
+    - Harmony
+    - Family
+    - Lasting happiness
+  reversed:
+    - A broken home
+    - Disconnection
+    - Misaligned values

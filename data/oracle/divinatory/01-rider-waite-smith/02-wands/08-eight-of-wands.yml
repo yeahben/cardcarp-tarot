@@ -1,0 +1,28 @@
+name: Eight of Wands
+
+origin: wands-08
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Eight
+
+element: Fire
+
+meaning:
+  upright:
+    - Swiftness
+    - Movement
+    - News
+  reversed:
+    - Delays
+    - Frustration
+    - Hasty decisions

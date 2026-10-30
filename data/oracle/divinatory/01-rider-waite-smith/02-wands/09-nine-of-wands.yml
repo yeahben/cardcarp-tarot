@@ -1,0 +1,28 @@
+name: Nine of Wands
+
+origin: wands-09
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Nine
+
+element: Fire
+
+meaning:
+  upright:
+    - Resilience
+    - Persistence
+    - A last stand
+  reversed:
+    - Fatigue
+    - Paranoia
+    - Defensiveness

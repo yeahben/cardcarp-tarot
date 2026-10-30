@@ -1,0 +1,28 @@
+name: Five of Swords
+
+origin: swords-05
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Five
+
+element: Air
+
+meaning:
+  upright:
+    - Conflict
+    - Defeat
+    - Winning at a cost
+  reversed:
+    - Reconciliation
+    - Making amends
+    - Old resentment

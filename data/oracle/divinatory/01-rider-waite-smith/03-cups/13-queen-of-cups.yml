@@ -1,0 +1,28 @@
+name: Queen of Cups
+
+origin: cups-13
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Cups
+
+rank: Queen
+
+element: Water
+
+meaning:
+  upright:
+    - Compassion
+    - Calm
+    - Emotional security
+  reversed:
+    - Insecurity
+    - Co-dependency
+    - Martyrdom

@@ -1,0 +1,26 @@
+name: The Lovers
+
+origin: major-arcana-06
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: VI
+
+astrology: Gemini
+
+meaning:
+  upright:
+    - Love
+    - Union
+    - A choice
+    - Harmony
+  reversed:
+    - Disharmony
+    - Imbalance
+    - Misaligned values

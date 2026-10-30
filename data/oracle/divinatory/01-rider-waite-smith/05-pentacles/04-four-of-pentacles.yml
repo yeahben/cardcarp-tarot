@@ -1,0 +1,28 @@
+name: Four of Pentacles
+
+origin: pentacles-04
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Four
+
+element: Earth
+
+meaning:
+  upright:
+    - Security
+    - Control
+    - Conservation
+  reversed:
+    - Greed
+    - Materialism
+    - Letting go

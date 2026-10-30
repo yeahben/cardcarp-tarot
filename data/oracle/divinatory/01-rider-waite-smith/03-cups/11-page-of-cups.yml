@@ -1,0 +1,28 @@
+name: Page of Cups
+
+origin: cups-11
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Cups
+
+rank: Page
+
+element: Water
+
+meaning:
+  upright:
+    - A creative opportunity
+    - Curiosity
+    - An intuitive message
+  reversed:
+    - Emotional immaturity
+    - A creative block
+    - Doubt

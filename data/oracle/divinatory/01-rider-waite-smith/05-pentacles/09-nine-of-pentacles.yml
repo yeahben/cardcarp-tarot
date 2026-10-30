@@ -1,0 +1,28 @@
+name: Nine of Pentacles
+
+origin: pentacles-09
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Nine
+
+element: Earth
+
+meaning:
+  upright:
+    - Luxury
+    - Self-sufficiency
+    - The fruits of labour
+  reversed:
+    - Overwork
+    - Hustling
+    - A financial setback

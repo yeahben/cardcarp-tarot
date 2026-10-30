@@ -1,0 +1,28 @@
+name: Nine of Swords
+
+origin: swords-09
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Nine
+
+element: Air
+
+meaning:
+  upright:
+    - Anxiety
+    - Nightmares
+    - Despair
+  reversed:
+    - Hope
+    - Reaching out
+    - Fear released

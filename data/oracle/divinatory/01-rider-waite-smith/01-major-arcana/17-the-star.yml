@@ -1,0 +1,26 @@
+name: The Star
+
+origin: major-arcana-17
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XVII
+
+astrology: Aquarius
+
+meaning:
+  upright:
+    - Hope
+    - Renewal
+    - Faith
+    - Inspiration
+  reversed:
+    - Despair
+    - Discouragement
+    - Lost faith

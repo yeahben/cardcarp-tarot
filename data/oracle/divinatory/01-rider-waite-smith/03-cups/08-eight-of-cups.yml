@@ -1,0 +1,28 @@
+name: Eight of Cups
+
+origin: cups-08
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Eight
+
+element: Water
+
+meaning:
+  upright:
+    - Walking away
+    - Disillusion
+    - Seeking more
+  reversed:
+    - Avoidance
+    - Fear of change
+    - Aimless drifting

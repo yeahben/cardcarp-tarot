@@ -1,0 +1,28 @@
+name: Two of Swords
+
+origin: swords-02
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Two
+
+element: Air
+
+meaning:
+  upright:
+    - Stalemate
+    - A difficult choice
+    - Blocked emotion
+  reversed:
+    - Indecision lifted
+    - Information revealed
+    - Overwhelm

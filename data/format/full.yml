@@ -1,0 +1,17 @@
+# The whole pack: every set, one copy of each card, seventy-eight in all.
+
+set_allow:
+  - '*'
+
+oracle_ban:
+
+oracle_restrict:
+
+oracle_exception:
+
+oracle_limit: 1
+
+list_limit:
+  main:
+    minimum: 78
+    maximum: 78

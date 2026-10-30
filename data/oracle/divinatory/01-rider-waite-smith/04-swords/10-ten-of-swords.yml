@@ -1,0 +1,28 @@
+name: Ten of Swords
+
+origin: swords-10
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Ten
+
+element: Air
+
+meaning:
+  upright:
+    - A painful ending
+    - Betrayal
+    - Rock bottom
+  reversed:
+    - Recovery
+    - Regeneration
+    - Resisting an ending

@@ -1,0 +1,28 @@
+name: Nine of Cups
+
+origin: cups-09
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Nine
+
+element: Water
+
+meaning:
+  upright:
+    - Contentment
+    - Satisfaction
+    - A wish fulfilled
+  reversed:
+    - Smugness
+    - Dissatisfaction
+    - Materialism

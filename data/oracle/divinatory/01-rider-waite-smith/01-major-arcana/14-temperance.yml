@@ -1,0 +1,26 @@
+name: Temperance
+
+origin: major-arcana-14
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XIV
+
+astrology: Sagittarius
+
+meaning:
+  upright:
+    - Balance
+    - Moderation
+    - Patience
+    - Purpose
+  reversed:
+    - Excess
+    - Imbalance
+    - Impatience

@@ -1,0 +1,28 @@
+name: Seven of Wands
+
+origin: wands-07
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Seven
+
+element: Fire
+
+meaning:
+  upright:
+    - Defence
+    - Perseverance
+    - Standing your ground
+  reversed:
+    - Giving up
+    - Overwhelm
+    - Exhaustion

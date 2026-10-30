@@ -1,0 +1,28 @@
+name: Ten of Pentacles
+
+origin: pentacles-10
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Ten
+
+element: Earth
+
+meaning:
+  upright:
+    - Wealth
+    - Legacy
+    - Family
+  reversed:
+    - Financial loss
+    - Family disputes
+    - Fleeting success

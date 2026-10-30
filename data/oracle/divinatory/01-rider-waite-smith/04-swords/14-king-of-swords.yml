@@ -1,0 +1,28 @@
+name: King of Swords
+
+origin: swords-14
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Swords
+
+rank: King
+
+element: Air
+
+meaning:
+  upright:
+    - Intellect
+    - Authority
+    - Truth
+  reversed:
+    - Manipulation
+    - Tyranny
+    - Abuse of power

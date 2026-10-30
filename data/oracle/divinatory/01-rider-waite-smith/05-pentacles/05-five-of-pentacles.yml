@@ -1,0 +1,28 @@
+name: Five of Pentacles
+
+origin: pentacles-05
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Five
+
+element: Earth
+
+meaning:
+  upright:
+    - Hardship
+    - Loss
+    - Isolation
+  reversed:
+    - Recovery
+    - Spiritual growth
+    - Aid arriving

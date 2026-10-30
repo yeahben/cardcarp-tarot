@@ -1,0 +1,76 @@
+# A card as a reader knows it, independent of printing: its place in the deck
+# and its meanings. Every edition of the Rider-Waite-Smith deck shares these.
+
+name:
+  type: string
+  required: true
+
+origin: # The printing this oracle first appeared in, as '{set}-{index}'.
+        # The id is derived from name + origin, so adding a later edition
+        # never changes an existing oracle's id.
+  type: string
+  required: true
+  nullable: false
+
+layout:
+  type: string
+  required: true
+  nullable: false
+  allowed: ['Standard']
+
+category: # the two halves of a tarot deck
+  type: list
+  required: true
+  nullable: false
+  schema:
+    type: string
+    allowed: ['Major Arcana', 'Minor Arcana']
+
+trait: # the card's kind within its half. Never reuses a category name:
+       # format.oracle_exception matches both lists with one key.
+  type: list
+  required: true
+  nullable: false
+  schema:
+    type: string
+    allowed: ['Trump', 'Pip', 'Court']
+
+type: # the suit, for Minor Arcana only
+  type: list
+  required: false
+  schema:
+    type: string
+    allowed: ['Wands', 'Cups', 'Swords', 'Pentacles']
+
+numeral: # the trump's number as lettered on the card, 0 to XXI
+  type: string
+  required: false
+
+rank: # a minor card's place in its suit
+  type: string
+  required: false
+  allowed: ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Page', 'Knight', 'Queen', 'King']
+
+element: # the classical element: one per suit, and for the three elemental trumps
+  type: string
+  required: false
+  allowed: ['Fire', 'Water', 'Air', 'Earth']
+
+astrology: # the Golden Dawn planetary or zodiacal attribution, trumps only
+  type: string
+  required: false
+
+meaning: # divinatory keywords, the nearest thing a tarot card has to rules text
+  type: dict
+  required: true
+  schema:
+    upright:
+      type: list
+      required: true
+      schema:
+        type: string
+    reversed:
+      type: list
+      required: true
+      schema:
+        type: string

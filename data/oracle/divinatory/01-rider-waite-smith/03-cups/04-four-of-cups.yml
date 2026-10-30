@@ -1,0 +1,28 @@
+name: Four of Cups
+
+origin: cups-04
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Four
+
+element: Water
+
+meaning:
+  upright:
+    - Apathy
+    - Contemplation
+    - A missed opportunity
+  reversed:
+    - Renewed motivation
+    - Acceptance
+    - Moving on

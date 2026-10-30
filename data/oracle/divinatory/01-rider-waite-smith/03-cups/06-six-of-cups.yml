@@ -1,0 +1,28 @@
+name: Six of Cups
+
+origin: cups-06
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Six
+
+element: Water
+
+meaning:
+  upright:
+    - Nostalgia
+    - Childhood
+    - Innocence
+  reversed:
+    - Living in the past
+    - Naivety
+    - Rose-tinted memories

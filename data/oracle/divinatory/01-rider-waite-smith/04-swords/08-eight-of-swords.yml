@@ -1,0 +1,28 @@
+name: Eight of Swords
+
+origin: swords-08
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Eight
+
+element: Air
+
+meaning:
+  upright:
+    - Restriction
+    - Self-imposed limits
+    - Feeling trapped
+  reversed:
+    - Release
+    - A new perspective
+    - Freedom
