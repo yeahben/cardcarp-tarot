@@ -1,0 +1,20 @@
+name: Three-Card Spread
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+
+highlight: major-arcana-10
+
+tagline: Three cards from the whole pack, for past, present and future.
+
+set:
+  - Major Arcana
+  - Wands
+  - Cups
+  - Swords
+  - Pentacles
+
+slot:
+  - count: 3

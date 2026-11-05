@@ -1,0 +1,28 @@
+name: Four of Wands
+
+origin: wands-04
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Four
+
+element: Fire
+
+meaning:
+  upright:
+    - Celebration
+    - Homecoming
+    - Harmony
+  reversed:
+    - Instability
+    - Transition
+    - Lack of support

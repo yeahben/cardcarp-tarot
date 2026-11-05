@@ -1,0 +1,28 @@
+name: Ten of Wands
+
+origin: wands-10
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Ten
+
+element: Fire
+
+meaning:
+  upright:
+    - Burden
+    - Responsibility
+    - Hard work
+  reversed:
+    - Collapse
+    - Delegation
+    - A burden released

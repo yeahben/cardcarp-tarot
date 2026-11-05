@@ -1,0 +1,28 @@
+name: Four of Swords
+
+origin: swords-04
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Four
+
+element: Air
+
+meaning:
+  upright:
+    - Rest
+    - Recuperation
+    - Contemplation
+  reversed:
+    - Restlessness
+    - Burnout
+    - Stagnation

@@ -1,0 +1,28 @@
+name: Three of Cups
+
+origin: cups-03
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Three
+
+element: Water
+
+meaning:
+  upright:
+    - Friendship
+    - Community
+    - Celebration
+  reversed:
+    - Overindulgence
+    - Gossip
+    - Isolation

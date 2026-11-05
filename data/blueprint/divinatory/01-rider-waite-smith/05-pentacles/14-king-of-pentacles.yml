@@ -1,0 +1,28 @@
+name: King of Pentacles
+
+origin: pentacles-14
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Pentacles
+
+rank: King
+
+element: Earth
+
+meaning:
+  upright:
+    - Wealth
+    - Discipline
+    - Abundance
+  reversed:
+    - Greed
+    - Materialism
+    - Stubbornness

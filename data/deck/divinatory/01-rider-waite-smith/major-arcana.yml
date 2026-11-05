@@ -1,0 +1,43 @@
+name: Major Arcana
+
+format:
+  - majors
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+  - Study
+
+highlight: major-arcana-21
+
+tagline: The twenty-two trumps on their own, from the Fool to the World.
+
+description:
+  - title:
+    body: 'The trumps alone, read as the arc of a journey. Beginners often learn these first: each carries a numeral, a title and a planetary or zodiacal attribution, and a twenty-two card deck is quick to shuffle and lay.'
+
+list:
+  main:
+    major-arcana-00: 1 # the fool
+    major-arcana-01: 1 # the magician
+    major-arcana-02: 1 # the high priestess
+    major-arcana-03: 1 # the empress
+    major-arcana-04: 1 # the emperor
+    major-arcana-05: 1 # the hierophant
+    major-arcana-06: 1 # the lovers
+    major-arcana-07: 1 # the chariot
+    major-arcana-08: 1 # strength
+    major-arcana-09: 1 # the hermit
+    major-arcana-10: 1 # wheel of fortune
+    major-arcana-11: 1 # justice
+    major-arcana-12: 1 # the hanged man
+    major-arcana-13: 1 # death
+    major-arcana-14: 1 # temperance
+    major-arcana-15: 1 # the devil
+    major-arcana-16: 1 # the tower
+    major-arcana-17: 1 # the star
+    major-arcana-18: 1 # the moon
+    major-arcana-19: 1 # the sun
+    major-arcana-20: 1 # judgement
+    major-arcana-21: 1 # the world

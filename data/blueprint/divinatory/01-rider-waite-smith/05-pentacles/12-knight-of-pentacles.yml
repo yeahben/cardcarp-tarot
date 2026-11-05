@@ -1,0 +1,28 @@
+name: Knight of Pentacles
+
+origin: pentacles-12
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Pentacles
+
+rank: Knight
+
+element: Earth
+
+meaning:
+  upright:
+    - Hard work
+    - Routine
+    - Reliability
+  reversed:
+    - Boredom
+    - Stubbornness
+    - Feeling stuck

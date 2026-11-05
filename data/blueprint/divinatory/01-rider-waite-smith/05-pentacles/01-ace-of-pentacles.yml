@@ -1,0 +1,28 @@
+name: Ace of Pentacles
+
+origin: pentacles-01
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Ace
+
+element: Earth
+
+meaning:
+  upright:
+    - Opportunity
+    - Prosperity
+    - A new venture
+  reversed:
+    - A lost opportunity
+    - Scarcity
+    - Poor planning

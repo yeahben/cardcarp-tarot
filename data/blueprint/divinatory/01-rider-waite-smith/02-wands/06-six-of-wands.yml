@@ -1,0 +1,28 @@
+name: Six of Wands
+
+origin: wands-06
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Six
+
+element: Fire
+
+meaning:
+  upright:
+    - Victory
+    - Recognition
+    - Progress
+  reversed:
+    - Egotism
+    - A fall from grace
+    - Lack of recognition

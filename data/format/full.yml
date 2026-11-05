@@ -1,0 +1,17 @@
+# The whole pack: every set, one copy of each card, seventy-eight in all.
+
+set_allow:
+  - '*'
+
+blueprint_ban:
+
+blueprint_restrict:
+
+blueprint_exception:
+
+blueprint_limit: 1
+
+list_limit:
+  main:
+    minimum: 78
+    maximum: 78

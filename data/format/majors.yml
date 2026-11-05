@@ -1,0 +1,17 @@
+# The twenty-two trumps read on their own.
+
+set_allow:
+  - major-arcana
+
+blueprint_ban:
+
+blueprint_restrict:
+
+blueprint_exception:
+
+blueprint_limit: 1
+
+list_limit:
+  main:
+    minimum: 22
+    maximum: 22

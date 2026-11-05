@@ -1,0 +1,26 @@
+name: The Chariot
+
+origin: major-arcana-07
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: VII
+
+astrology: Cancer
+
+meaning:
+  upright:
+    - Determination
+    - Victory
+    - Control
+    - Momentum
+  reversed:
+    - Lack of direction
+    - Aggression
+    - Obstacles

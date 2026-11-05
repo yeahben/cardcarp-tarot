@@ -1,0 +1,28 @@
+name: Seven of Cups
+
+origin: cups-07
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Seven
+
+element: Water
+
+meaning:
+  upright:
+    - Choices
+    - Illusion
+    - Wishful thinking
+  reversed:
+    - Clarity
+    - Alignment
+    - A decision made

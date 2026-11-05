@@ -1,0 +1,28 @@
+name: Seven of Swords
+
+origin: swords-07
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Seven
+
+element: Air
+
+meaning:
+  upright:
+    - Deception
+    - Strategy
+    - Getting away with it
+  reversed:
+    - Confession
+    - Conscience
+    - Imposter syndrome

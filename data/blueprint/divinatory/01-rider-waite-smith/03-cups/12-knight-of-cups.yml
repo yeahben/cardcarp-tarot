@@ -1,0 +1,28 @@
+name: Knight of Cups
+
+origin: cups-12
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Cups
+
+rank: Knight
+
+element: Water
+
+meaning:
+  upright:
+    - Romance
+    - Charm
+    - Idealism
+  reversed:
+    - Moodiness
+    - Unrealistic ideals
+    - Disappointment

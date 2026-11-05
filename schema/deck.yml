@@ -1,0 +1,73 @@
+# A deck is a list of specific printings: the pack as sold, or a subset of it
+# that is read on its own.
+
+name:
+  type: string
+  required: true
+
+format: # The format this list is meant for, an intent rather than a legality
+        # claim; "legal" is computed during compile. A value naming no format
+        # is a product type instead.
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+
+group: # The release grouping this list belongs to: here, the deck design it is cut from.
+  type: string
+  required: true
+
+theme:  # A catch-all to categorize/tag
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+
+highlight:  # Card which best represents the list.
+  type: string
+  required: true
+  nullable: true
+
+tagline:  # Succinct one line pitch text.
+  type: string
+  required: true
+  nullable: true
+
+description:  # Paragraph text explaining how the list is used.
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: dict
+    schema:
+      title:
+        type: string
+        nullable: true
+      body:
+        type: string
+        required: true
+
+list: # card id to how many copies;
+      # zones mirror format.list_limit:
+      # - 'main' is the deck proper,
+      # - 'side' and 'auxiliary' are unused by tarot but kept for the shared build
+  type: dict
+  required: true
+  schema:
+    auxiliary:
+      type: dict
+      valuesrules:
+        type: integer
+        min: 1
+    main:
+      type: dict
+      valuesrules:
+        type: integer
+        min: 1
+    side:
+      type: dict
+      valuesrules:
+        type: integer
+        min: 1

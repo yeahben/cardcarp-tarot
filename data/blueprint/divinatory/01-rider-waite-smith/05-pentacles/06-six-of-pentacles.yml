@@ -1,0 +1,28 @@
+name: Six of Pentacles
+
+origin: pentacles-06
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Six
+
+element: Earth
+
+meaning:
+  upright:
+    - Generosity
+    - Charity
+    - Sharing
+  reversed:
+    - Debt
+    - Strings attached
+    - One-sided giving

@@ -1,0 +1,28 @@
+name: Ace of Swords
+
+origin: swords-01
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Ace
+
+element: Air
+
+meaning:
+  upright:
+    - Clarity
+    - Breakthrough
+    - Truth
+  reversed:
+    - Confusion
+    - Brutality
+    - Clouded judgement

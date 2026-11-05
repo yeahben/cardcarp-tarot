@@ -1,0 +1,26 @@
+name: Judgement
+
+origin: major-arcana-20
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XX
+
+element: Fire
+
+meaning:
+  upright:
+    - Reckoning
+    - Awakening
+    - Renewal
+    - Absolution
+  reversed:
+    - Self-doubt
+    - Harsh judgement
+    - Refusing the call

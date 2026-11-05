@@ -1,0 +1,26 @@
+name: The High Priestess
+
+origin: major-arcana-02
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: II
+
+astrology: Moon
+
+meaning:
+  upright:
+    - Intuition
+    - Mystery
+    - The inner voice
+    - Hidden knowledge
+  reversed:
+    - Secrets
+    - Withdrawal
+    - Intuition ignored

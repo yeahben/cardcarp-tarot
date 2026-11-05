@@ -1,0 +1,28 @@
+name: The World
+
+origin: major-arcana-21
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XXI
+
+element: Earth
+
+astrology: Saturn
+
+meaning:
+  upright:
+    - Completion
+    - Accomplishment
+    - Wholeness
+    - Travel
+  reversed:
+    - Incompletion
+    - Shortcuts
+    - Lack of closure

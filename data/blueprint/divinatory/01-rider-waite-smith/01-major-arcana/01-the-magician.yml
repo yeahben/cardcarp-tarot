@@ -1,0 +1,26 @@
+name: The Magician
+
+origin: major-arcana-01
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: I
+
+astrology: Mercury
+
+meaning:
+  upright:
+    - Willpower
+    - Skill
+    - Manifestation
+    - Resourcefulness
+  reversed:
+    - Manipulation
+    - Untapped talent
+    - Trickery

@@ -1,0 +1,26 @@
+name: The Hermit
+
+origin: major-arcana-09
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: IX
+
+astrology: Virgo
+
+meaning:
+  upright:
+    - Introspection
+    - Solitude
+    - Searching
+    - Guidance
+  reversed:
+    - Isolation
+    - Loneliness
+    - Withdrawal

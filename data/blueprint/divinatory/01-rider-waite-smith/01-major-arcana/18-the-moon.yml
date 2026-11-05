@@ -1,0 +1,26 @@
+name: The Moon
+
+origin: major-arcana-18
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XVIII
+
+astrology: Pisces
+
+meaning:
+  upright:
+    - Illusion
+    - Intuition
+    - Fear
+    - The unconscious
+  reversed:
+    - Fear released
+    - Clarity
+    - Confusion lifting

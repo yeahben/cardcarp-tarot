@@ -1,0 +1,20 @@
+name: Daily Draw
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+
+highlight: major-arcana-19
+
+tagline: One card from the whole pack, to sit with for the day.
+
+set:
+  - Major Arcana
+  - Wands
+  - Cups
+  - Swords
+  - Pentacles
+
+slot:
+  - count: 1

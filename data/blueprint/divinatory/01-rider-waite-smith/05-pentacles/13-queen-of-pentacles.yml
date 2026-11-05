@@ -1,0 +1,28 @@
+name: Queen of Pentacles
+
+origin: pentacles-13
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Pentacles
+
+rank: Queen
+
+element: Earth
+
+meaning:
+  upright:
+    - Nurturing
+    - Practicality
+    - Security
+  reversed:
+    - Neglected self-care
+    - Work-home imbalance
+    - Smothering

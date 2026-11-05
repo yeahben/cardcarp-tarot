@@ -1,0 +1,26 @@
+name: The Emperor
+
+origin: major-arcana-04
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: IV
+
+astrology: Aries
+
+meaning:
+  upright:
+    - Authority
+    - Structure
+    - Stability
+    - Fatherhood
+  reversed:
+    - Domination
+    - Rigidity
+    - Lack of discipline

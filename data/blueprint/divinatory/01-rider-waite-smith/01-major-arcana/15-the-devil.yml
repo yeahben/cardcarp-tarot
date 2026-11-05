@@ -1,0 +1,26 @@
+name: The Devil
+
+origin: major-arcana-15
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XV
+
+astrology: Capricorn
+
+meaning:
+  upright:
+    - Bondage
+    - Addiction
+    - Materialism
+    - The shadow self
+  reversed:
+    - Release
+    - Freedom
+    - Reclaiming power

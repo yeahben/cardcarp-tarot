@@ -1,0 +1,28 @@
+name: Seven of Pentacles
+
+origin: pentacles-07
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Pentacles
+
+rank: Seven
+
+element: Earth
+
+meaning:
+  upright:
+    - Patience
+    - Investment
+    - The long view
+  reversed:
+    - Impatience
+    - Lack of reward
+    - Wasted effort

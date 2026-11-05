@@ -1,0 +1,28 @@
+name: Ace of Wands
+
+origin: wands-01
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Ace
+
+element: Fire
+
+meaning:
+  upright:
+    - Inspiration
+    - A new venture
+    - A creative spark
+  reversed:
+    - Delay
+    - Lack of direction
+    - A false start

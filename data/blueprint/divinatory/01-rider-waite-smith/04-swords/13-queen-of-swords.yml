@@ -1,0 +1,28 @@
+name: Queen of Swords
+
+origin: swords-13
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Swords
+
+rank: Queen
+
+element: Air
+
+meaning:
+  upright:
+    - Independence
+    - Clear boundaries
+    - Perceptiveness
+  reversed:
+    - Coldness
+    - Bitterness
+    - Cruelty

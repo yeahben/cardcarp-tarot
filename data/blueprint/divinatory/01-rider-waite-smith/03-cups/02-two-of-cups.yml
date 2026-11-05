@@ -1,0 +1,28 @@
+name: Two of Cups
+
+origin: cups-02
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Two
+
+element: Water
+
+meaning:
+  upright:
+    - Partnership
+    - Attraction
+    - Mutual respect
+  reversed:
+    - Imbalance
+    - Broken communication
+    - Tension

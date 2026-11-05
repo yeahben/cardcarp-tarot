@@ -1,0 +1,28 @@
+name: Three of Swords
+
+origin: swords-03
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Swords
+
+rank: Three
+
+element: Air
+
+meaning:
+  upright:
+    - Heartbreak
+    - Sorrow
+    - A painful truth
+  reversed:
+    - Recovery
+    - Forgiveness
+    - Releasing pain

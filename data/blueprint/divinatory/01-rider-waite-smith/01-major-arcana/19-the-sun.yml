@@ -1,0 +1,26 @@
+name: The Sun
+
+origin: major-arcana-19
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XIX
+
+astrology: Sun
+
+meaning:
+  upright:
+    - Joy
+    - Success
+    - Vitality
+    - Positivity
+  reversed:
+    - Temporary gloom
+    - Overconfidence
+    - A blocked inner child

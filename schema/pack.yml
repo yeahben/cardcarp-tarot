@@ -1,0 +1,63 @@
+# A sealed pack: cards drawn at random by rule when it is opened on the table. It
+# names the sets it draws from and a slot for each kind of card it holds; which
+# cards come out is decided at the table, so none are written here.
+
+name:
+  type: string
+  required: true
+
+group: # The release grouping this pack belongs to, as a deck's: here, the deck design it is cut from.
+  type: string
+  required: true
+
+theme: # A catch-all to categorize/tag
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+
+highlight: # Card shown on the wrapper.
+  type: string
+  required: true
+  nullable: true
+
+tagline: # Succinct one line pitch text.
+  type: string
+  required: true
+  nullable: true
+
+set: # The sets the pack draws from, by name. A card must belong to one of them to be drawn.
+  type: list
+  required: true
+  minlength: 1
+  schema:
+    type: string
+
+unique: # Whether one pack never holds the same printing twice. True unless said otherwise.
+  type: boolean
+
+slot: # Each slot draws `count` cards. `match` lists the kinds of card the slot may hold: a
+      # card field and the value (or any of several values) it must carry, plus an optional
+      # `weight` for the odds between kinds (1 unless given). A slot with no match draws any
+      # card from the pack's sets.
+  type: list
+  required: true
+  minlength: 1
+  schema:
+    type: dict
+    schema:
+      count:
+        type: integer
+        required: true
+        min: 1
+        coerce: int
+      match:
+        type: list
+        schema:
+          type: dict
+          allow_unknown: true
+          schema:
+            weight:
+              type: number
+              min: 0

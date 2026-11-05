@@ -1,0 +1,23 @@
+name: Celtic Cross
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+
+highlight: major-arcana-00
+
+tagline: Ten cards for the classic spread, with one trump sure to be among them.
+
+set:
+  - Major Arcana
+  - Wands
+  - Cups
+  - Swords
+  - Pentacles
+
+slot:
+  - count: 1
+    match:
+      - category: Major Arcana
+  - count: 9

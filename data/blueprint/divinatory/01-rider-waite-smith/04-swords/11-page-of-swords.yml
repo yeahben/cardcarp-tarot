@@ -1,0 +1,28 @@
+name: Page of Swords
+
+origin: swords-11
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Swords
+
+rank: Page
+
+element: Air
+
+meaning:
+  upright:
+    - Curiosity
+    - Vigilance
+    - New ideas
+  reversed:
+    - Deception
+    - Haste
+    - All talk

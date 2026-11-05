@@ -1,0 +1,28 @@
+name: Five of Cups
+
+origin: cups-05
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Cups
+
+rank: Five
+
+element: Water
+
+meaning:
+  upright:
+    - Loss
+    - Grief
+    - Regret
+  reversed:
+    - Acceptance
+    - Moving on
+    - Forgiveness

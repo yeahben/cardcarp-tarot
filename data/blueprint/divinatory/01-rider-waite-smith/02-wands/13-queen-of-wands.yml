@@ -1,0 +1,28 @@
+name: Queen of Wands
+
+origin: wands-13
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Wands
+
+rank: Queen
+
+element: Fire
+
+meaning:
+  upright:
+    - Confidence
+    - Warmth
+    - Determination
+  reversed:
+    - Jealousy
+    - Demands
+    - Insecurity

@@ -1,0 +1,26 @@
+name: Wheel of Fortune
+
+origin: major-arcana-10
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: X
+
+astrology: Jupiter
+
+meaning:
+  upright:
+    - Change
+    - Cycles
+    - Destiny
+    - A turning point
+  reversed:
+    - Bad luck
+    - Resistance to change
+    - Setbacks

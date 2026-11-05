@@ -1,0 +1,32 @@
+# A set is one numbering sequence. A tarot deck holds five: the trumps run
+# 0 to XXI, and each suit restarts at its Ace, so each suit is its own set.
+# See CONTRIBUTING: What counts as a set.
+
+name:
+  type: string
+  required: true
+
+type:
+  type: string
+  required: true
+  allowed: ['Trumps', 'Suit']
+
+index: # order within the collection: trumps first, then the suits in Waite's order
+  type: integer
+  required: true
+
+total:
+  type: integer
+
+date: # first publication of this edition
+  type: string
+  regex: '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+
+collection:
+  type: string
+  required: true
+
+publisher:
+  type: string
+  required: true
+  allowed: ['William Rider & Son']

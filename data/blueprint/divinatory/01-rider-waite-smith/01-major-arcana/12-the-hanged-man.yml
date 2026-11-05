@@ -1,0 +1,26 @@
+name: The Hanged Man
+
+origin: major-arcana-12
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XII
+
+element: Water
+
+meaning:
+  upright:
+    - Surrender
+    - Suspension
+    - A new perspective
+    - Sacrifice
+  reversed:
+    - Stalling
+    - Resistance
+    - Indecision

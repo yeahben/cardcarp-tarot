@@ -1,0 +1,77 @@
+name: Minor Arcana
+
+format:
+  - minors
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+  - Study
+
+highlight: wands-01
+
+tagline: The four suits of fourteen, every pip card illustrated.
+
+description:
+  - title:
+    body: Wands, Cups, Swords and Pentacles, Ace to King. The illustrated pips are what set this deck apart from every divinatory deck before it, and reading the suits on their own is the way to learn them.
+
+list:
+  main:
+    wands-01: 1 # ace of wands
+    wands-02: 1 # two of wands
+    wands-03: 1 # three of wands
+    wands-04: 1 # four of wands
+    wands-05: 1 # five of wands
+    wands-06: 1 # six of wands
+    wands-07: 1 # seven of wands
+    wands-08: 1 # eight of wands
+    wands-09: 1 # nine of wands
+    wands-10: 1 # ten of wands
+    wands-11: 1 # page of wands
+    wands-12: 1 # knight of wands
+    wands-13: 1 # queen of wands
+    wands-14: 1 # king of wands
+    cups-01: 1 # ace of cups
+    cups-02: 1 # two of cups
+    cups-03: 1 # three of cups
+    cups-04: 1 # four of cups
+    cups-05: 1 # five of cups
+    cups-06: 1 # six of cups
+    cups-07: 1 # seven of cups
+    cups-08: 1 # eight of cups
+    cups-09: 1 # nine of cups
+    cups-10: 1 # ten of cups
+    cups-11: 1 # page of cups
+    cups-12: 1 # knight of cups
+    cups-13: 1 # queen of cups
+    cups-14: 1 # king of cups
+    swords-01: 1 # ace of swords
+    swords-02: 1 # two of swords
+    swords-03: 1 # three of swords
+    swords-04: 1 # four of swords
+    swords-05: 1 # five of swords
+    swords-06: 1 # six of swords
+    swords-07: 1 # seven of swords
+    swords-08: 1 # eight of swords
+    swords-09: 1 # nine of swords
+    swords-10: 1 # ten of swords
+    swords-11: 1 # page of swords
+    swords-12: 1 # knight of swords
+    swords-13: 1 # queen of swords
+    swords-14: 1 # king of swords
+    pentacles-01: 1 # ace of pentacles
+    pentacles-02: 1 # two of pentacles
+    pentacles-03: 1 # three of pentacles
+    pentacles-04: 1 # four of pentacles
+    pentacles-05: 1 # five of pentacles
+    pentacles-06: 1 # six of pentacles
+    pentacles-07: 1 # seven of pentacles
+    pentacles-08: 1 # eight of pentacles
+    pentacles-09: 1 # nine of pentacles
+    pentacles-10: 1 # ten of pentacles
+    pentacles-11: 1 # page of pentacles
+    pentacles-12: 1 # knight of pentacles
+    pentacles-13: 1 # queen of pentacles
+    pentacles-14: 1 # king of pentacles

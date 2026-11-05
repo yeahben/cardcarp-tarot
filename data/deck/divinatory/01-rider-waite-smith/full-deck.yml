@@ -1,0 +1,98 @@
+name: Full Deck
+
+format:
+  - full
+
+group: Rider-Waite-Smith
+
+theme:
+  - Reading
+
+highlight: major-arcana-00
+
+tagline: All seventy-eight cards, as the pack was sold in 1909.
+
+description:
+  - title:
+    body: 'The complete Rider-Waite-Smith deck: twenty-two trumps and four suits of fourteen. Shuffle, cut, and lay a spread. Every card has a meaning upright and another reversed, so a reading uses the whole list.'
+
+list:
+  main:
+    major-arcana-00: 1 # the fool
+    major-arcana-01: 1 # the magician
+    major-arcana-02: 1 # the high priestess
+    major-arcana-03: 1 # the empress
+    major-arcana-04: 1 # the emperor
+    major-arcana-05: 1 # the hierophant
+    major-arcana-06: 1 # the lovers
+    major-arcana-07: 1 # the chariot
+    major-arcana-08: 1 # strength
+    major-arcana-09: 1 # the hermit
+    major-arcana-10: 1 # wheel of fortune
+    major-arcana-11: 1 # justice
+    major-arcana-12: 1 # the hanged man
+    major-arcana-13: 1 # death
+    major-arcana-14: 1 # temperance
+    major-arcana-15: 1 # the devil
+    major-arcana-16: 1 # the tower
+    major-arcana-17: 1 # the star
+    major-arcana-18: 1 # the moon
+    major-arcana-19: 1 # the sun
+    major-arcana-20: 1 # judgement
+    major-arcana-21: 1 # the world
+    wands-01: 1 # ace of wands
+    wands-02: 1 # two of wands
+    wands-03: 1 # three of wands
+    wands-04: 1 # four of wands
+    wands-05: 1 # five of wands
+    wands-06: 1 # six of wands
+    wands-07: 1 # seven of wands
+    wands-08: 1 # eight of wands
+    wands-09: 1 # nine of wands
+    wands-10: 1 # ten of wands
+    wands-11: 1 # page of wands
+    wands-12: 1 # knight of wands
+    wands-13: 1 # queen of wands
+    wands-14: 1 # king of wands
+    cups-01: 1 # ace of cups
+    cups-02: 1 # two of cups
+    cups-03: 1 # three of cups
+    cups-04: 1 # four of cups
+    cups-05: 1 # five of cups
+    cups-06: 1 # six of cups
+    cups-07: 1 # seven of cups
+    cups-08: 1 # eight of cups
+    cups-09: 1 # nine of cups
+    cups-10: 1 # ten of cups
+    cups-11: 1 # page of cups
+    cups-12: 1 # knight of cups
+    cups-13: 1 # queen of cups
+    cups-14: 1 # king of cups
+    swords-01: 1 # ace of swords
+    swords-02: 1 # two of swords
+    swords-03: 1 # three of swords
+    swords-04: 1 # four of swords
+    swords-05: 1 # five of swords
+    swords-06: 1 # six of swords
+    swords-07: 1 # seven of swords
+    swords-08: 1 # eight of swords
+    swords-09: 1 # nine of swords
+    swords-10: 1 # ten of swords
+    swords-11: 1 # page of swords
+    swords-12: 1 # knight of swords
+    swords-13: 1 # queen of swords
+    swords-14: 1 # king of swords
+    pentacles-01: 1 # ace of pentacles
+    pentacles-02: 1 # two of pentacles
+    pentacles-03: 1 # three of pentacles
+    pentacles-04: 1 # four of pentacles
+    pentacles-05: 1 # five of pentacles
+    pentacles-06: 1 # six of pentacles
+    pentacles-07: 1 # seven of pentacles
+    pentacles-08: 1 # eight of pentacles
+    pentacles-09: 1 # nine of pentacles
+    pentacles-10: 1 # ten of pentacles
+    pentacles-11: 1 # page of pentacles
+    pentacles-12: 1 # knight of pentacles
+    pentacles-13: 1 # queen of pentacles
+    pentacles-14: 1 # king of pentacles

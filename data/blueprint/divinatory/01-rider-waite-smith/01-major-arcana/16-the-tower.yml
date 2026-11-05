@@ -1,0 +1,26 @@
+name: The Tower
+
+origin: major-arcana-16
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: XVI
+
+astrology: Mars
+
+meaning:
+  upright:
+    - Upheaval
+    - Sudden change
+    - Revelation
+    - Chaos
+  reversed:
+    - Disaster averted
+    - Fear of change
+    - A delayed collapse

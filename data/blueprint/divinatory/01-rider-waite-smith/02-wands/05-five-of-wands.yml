@@ -1,0 +1,28 @@
+name: Five of Wands
+
+origin: wands-05
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Pip
+
+type:
+  - Wands
+
+rank: Five
+
+element: Fire
+
+meaning:
+  upright:
+    - Conflict
+    - Competition
+    - Tension
+  reversed:
+    - Avoiding conflict
+    - Resolution
+    - Tension released

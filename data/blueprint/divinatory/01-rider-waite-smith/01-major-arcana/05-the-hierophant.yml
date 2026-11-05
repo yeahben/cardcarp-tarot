@@ -1,0 +1,26 @@
+name: The Hierophant
+
+origin: major-arcana-05
+
+layout: Standard
+
+category:
+  - Major Arcana
+
+trait:
+  - Trump
+
+numeral: V
+
+astrology: Taurus
+
+meaning:
+  upright:
+    - Tradition
+    - Institutions
+    - Guidance
+    - Conformity
+  reversed:
+    - Rebellion
+    - Unconventionality
+    - Dogma

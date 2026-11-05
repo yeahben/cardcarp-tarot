@@ -1,0 +1,28 @@
+name: King of Wands
+
+origin: wands-14
+
+layout: Standard
+
+category:
+  - Minor Arcana
+
+trait:
+  - Court
+
+type:
+  - Wands
+
+rank: King
+
+element: Fire
+
+meaning:
+  upright:
+    - Leadership
+    - Vision
+    - Honour
+  reversed:
+    - Impulsiveness
+    - Ruthlessness
+    - High expectations
